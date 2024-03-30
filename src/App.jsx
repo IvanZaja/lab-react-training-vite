@@ -7,6 +7,8 @@ import CreditCard from "./components/credit-card/CreditCard.jsx";
 import Rating from "./components/rating/Rating.jsx";
 import DriverCard from "./components/driver-card/DriverCard.jsx";
 import LikeButton from "./components/like-button/LikeButton.jsx";
+import ClickablePicture from "./components/clickable-picture/ClickablePicture.jsx";
+import Dice from "./components/dice/Dice.jsx";
 
 function App() {
   return (
@@ -85,6 +87,12 @@ function App() {
       />
 
       <LikeButton />
+
+      <ClickablePicture
+        img="src\assets\images\me.jpg"
+        imgClicked="src\assets\images\me-glasses.jpg"
+      />
+      <Dice />
     </div>
   );
 }
